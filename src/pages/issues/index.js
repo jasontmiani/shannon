@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
-import 'https://s.pageclip.co/v1/pageclip.css'
+import './index.css'
 
-function Index(props) {
+function Issues(props) {
     const [data, setData] = useState({});
     const [loading, setLoading] = useState("");
 
